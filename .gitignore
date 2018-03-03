@@ -1,2 +1,11 @@
 .gems
 .data
+log
+tmp
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+app/helpers
+app/helpers

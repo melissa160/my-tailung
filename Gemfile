@@ -12,10 +12,6 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'webpacker'
 gem 'react-rails'
-<<<<<<< HEAD
-=======
-
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

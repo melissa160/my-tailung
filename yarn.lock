@@ -3,8 +3,8 @@
 
 
 "@rails/webpacker@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@rails/webpacker/-/webpacker-3.2.2.tgz#6d60e1cf729dc2ccc52053c9b6b8d30c9a48a297"
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@rails/webpacker/-/webpacker-3.3.0.tgz#4ce1e67d57e615dfacde33d2b27fbd46a2111cba"
   dependencies:
     babel-core "^6.26.0"
     babel-loader "^7.1.2"
@@ -14,7 +14,7 @@
     babel-polyfill "^6.26.0"
     babel-preset-env "^1.6.1"
     case-sensitive-paths-webpack-plugin "^2.1.1"
-    compression-webpack-plugin "^1.1.6"
+    compression-webpack-plugin "^1.1.10"
     css-loader "^0.28.9"
     extract-text-webpack-plugin "^3.0.2"
     file-loader "^1.1.6"
@@ -92,8 +92,8 @@ ajv@^5.0.0, ajv@^5.1.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.0.tgz#afac295bbaa0152449e522742e4547c1ae9328d2"
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.1.tgz#28a6abc493a2abe0fb4c8507acaedb43fa550671"
   dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
@@ -131,15 +131,6 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-<<<<<<< HEAD
-ansi-styles@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
-  dependencies:
-    color-convert "^1.9.0"
-
-=======
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -271,11 +262,7 @@ async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-<<<<<<< HEAD
-async@^2.1.2, async@^2.1.5, async@^2.4.1:
-=======
 async@^2.1.2, async@^2.4.1:
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
@@ -1201,12 +1188,12 @@ caniuse-api@^2.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000810"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000810.tgz#bd25830c41efab64339a2e381f49677343c84509"
+  version "1.0.30000811"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000811.tgz#19efb9238393d40078332c34485c818d641c4305"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
-  version "1.0.30000810"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000810.tgz#47585fffce0e9f3593a6feea4673b945424351d9"
+  version "1.0.30000811"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000811.tgz#0b6e40f2efccc27bd3cb52f91ee7ca4673d77d10"
 
 case-sensitive-paths-webpack-plugin@^2.1.1:
   version "2.1.1"
@@ -1237,19 +1224,7 @@ chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-<<<<<<< HEAD
-chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.1.tgz#523fe2678aec7b04e8041909292fe8b17059b796"
-  dependencies:
-    ansi-styles "^3.2.0"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.2.0"
-
-chalk@^2.3.0:
-=======
 chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1:
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -1317,16 +1292,6 @@ cliui@^3.2.0:
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
 
-<<<<<<< HEAD
-clone-deep@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/clone-deep/-/clone-deep-0.3.0.tgz#348c61ae9cdbe0edfe053d91ff4cc521d790ede8"
-  dependencies:
-    for-own "^1.0.0"
-    is-plain-object "^2.0.1"
-    kind-of "^3.2.2"
-    shallow-clone "^0.1.2"
-=======
 clone-deep@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/clone-deep/-/clone-deep-2.0.2.tgz#00db3a1e173656730d1188c3d6aced6d7ea97713"
@@ -1335,7 +1300,6 @@ clone-deep@^2.0.1:
     is-plain-object "^2.0.4"
     kind-of "^6.0.0"
     shallow-clone "^1.0.0"
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
 
 clone@^1.0.2:
   version "1.0.3"
@@ -1447,7 +1411,7 @@ compressible@~2.0.13:
   dependencies:
     mime-db ">= 1.33.0 < 2"
 
-compression-webpack-plugin@^1.1.6:
+compression-webpack-plugin@^1.1.10:
   version "1.1.10"
   resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-1.1.10.tgz#dbc2d2d65729a89f7b195668211d38ea0883df98"
   dependencies:
@@ -1886,13 +1850,8 @@ domain-browser@^1.1.1:
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
 
 duplexify@^3.4.2, duplexify@^3.5.3:
-<<<<<<< HEAD
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.5.3.tgz#8b5818800df92fd0125b27ab896491912858243e"
-=======
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.5.4.tgz#4bb46c1796eabebeec4ca9a2e66b808cb7a3d8b4"
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   dependencies:
     end-of-stream "^1.0.0"
     inherits "^2.0.1"
@@ -2268,13 +2227,8 @@ fbjs@^0.8.16:
     ua-parser-js "^0.7.9"
 
 file-loader@^1.1.6:
-<<<<<<< HEAD
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.10.tgz#77e97dfeab13da64c7085ab3e3887e29ae588aea"
-=======
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.11.tgz#6fe886449b0f2a936e43cabaac0cdbfb369506f8"
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   dependencies:
     loader-utils "^1.0.2"
     schema-utils "^0.4.5"
@@ -2933,11 +2887,7 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
-<<<<<<< HEAD
-is-buffer@^1.0.2, is-buffer@^1.1.5:
-=======
 is-buffer@^1.1.5:
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
@@ -3283,17 +3233,7 @@ killable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.0.tgz#da8b84bd47de5395878f95d64d02f2449fe05e6b"
 
-<<<<<<< HEAD
-kind-of@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-2.0.1.tgz#018ec7a4ce7e3a86cb9141be519d24c8faa981b5"
-  dependencies:
-    is-buffer "^1.0.2"
-
-kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0, kind-of@^3.2.2:
-=======
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
   dependencies:
@@ -3319,13 +3259,6 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
-<<<<<<< HEAD
-lazy-cache@^0.2.3:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-0.2.7.tgz#7feddf2dcb6edb77d11ef1d117ab5ffdf0ab1b65"
-
-=======
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
@@ -4926,8 +4859,8 @@ read-pkg@^2.0.0:
     path-type "^2.0.0"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.4.tgz#c946c3f47fa7d8eabc0b6150f4a12f69a4574071"
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -5229,15 +5162,6 @@ sass-graph@^2.2.4:
     yargs "^7.0.0"
 
 sass-loader@^6.0.6:
-<<<<<<< HEAD
-  version "6.0.6"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-6.0.6.tgz#e9d5e6c1f155faa32a4b26d7a9b7107c225e40f9"
-  dependencies:
-    async "^2.1.5"
-    clone-deep "^0.3.0"
-    loader-utils "^1.0.1"
-    lodash.tail "^4.1.1"
-=======
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-6.0.7.tgz#dd2fdb3e7eeff4a53f35ba6ac408715488353d00"
   dependencies:
@@ -5245,7 +5169,6 @@ sass-loader@^6.0.6:
     loader-utils "^1.0.1"
     lodash.tail "^4.1.1"
     neo-async "^2.5.0"
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
     pify "^3.0.0"
 
 sax@~1.2.1:
@@ -5384,22 +5307,12 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-<<<<<<< HEAD
-shallow-clone@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/shallow-clone/-/shallow-clone-0.1.2.tgz#5909e874ba77106d73ac414cfec1ffca87d97060"
-  dependencies:
-    is-extendable "^0.1.1"
-    kind-of "^2.0.1"
-    lazy-cache "^0.2.3"
-=======
 shallow-clone@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shallow-clone/-/shallow-clone-1.0.0.tgz#4480cd06e882ef68b2ad88a3ea54832e2c48b571"
   dependencies:
     is-extendable "^0.1.1"
     kind-of "^5.0.0"
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
     mixin-object "^2.0.1"
 
 shebang-command@^1.2.0:
@@ -5739,17 +5652,7 @@ supports-color@^4.2.1:
   dependencies:
     has-flag "^2.0.0"
 
-<<<<<<< HEAD
-supports-color@^5.1.0, supports-color@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.2.0.tgz#b0d5333b1184dd3666cbe5aa0b45c5ac7ac17a4a"
-  dependencies:
-    has-flag "^3.0.0"
-
-supports-color@^5.3.0:
-=======
 supports-color@^5.1.0, supports-color@^5.2.0, supports-color@^5.3.0:
->>>>>>> 3b2b10be956b957e173a573ecad617016aac647a
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
   dependencies:
